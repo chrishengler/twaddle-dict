@@ -484,3 +484,116 @@
     > vial/vials
     > wallet/wallets
 #class remove container
+
+#class add food
+  #class add fruit
+    #class add berry
+        > blackberry/blackberries
+        > blueberry/blueberries
+        > elderberry/elderberries
+        > gooseberry/gooseberries
+        > huckleberry/huckleberries
+        > raspberry/raspberries
+        > strawberry/strawberries
+    #class remove berry
+    > apple/apples
+    > apricot/apricots
+    > banana/bananas
+    > coconut/coconuts
+    > currant/currants
+    > date/dates
+    > grape/grapes
+    > grapefruit/grapefruits
+    > kiwi/kiwis
+    > kumquat/kumquats
+    > lemon/lemons
+    > lime/limes
+    > melon/melons
+    > nectarine/nectarines
+    > orange/oranges
+    > peach/peaches
+    > pineapple/pineapples
+    > pomegranate/pomegranates
+    > prune/prunes
+    > raisin/raisins
+    > raspberry/raspberries
+    > strawberry/strawberries
+    > sultana/sultanas
+    > tangerine/tangerines
+    > watermelon/watermelons
+  #class remove fruit
+
+  #class add nuts
+    > almond/almonds
+    > brazil nut/brazil nuts
+    > cashew/cashews
+    > hazelnut/hazelnuts
+    > peanut/peanuts
+    > pine nut/pine nuts
+    > pistachio/pistachios
+    > walnut/walnuts
+  #class remove nuts
+
+  #class add seafood
+    > crabstick/crabsticks
+    > crayfish/crayfish
+    > lobster/lobsters
+    > prawn/prawns
+    > scallop/scallops
+    > shrimp/shrimp
+  #class remove seafood
+
+  #class add vegetable
+    > artichoke/artichokes
+    > aubergine/aubergines
+    > brussels sprout/brussels sprouts
+    > carrot/carrots
+    > cauliflower/cauliflowers
+    > leek/leeks
+    > onion/onions
+    > parsnip/parsnips
+    > pepper/peppers
+    > potato/potatoes
+    > plantain/plantains
+    > radish/radishes
+    > spring onion/spring onions
+    > swede/swedes
+    > sweet potato/sweet potatoes
+    > turnip/turnips
+    > tomato/tomatoes
+    > yam/yams
+  #class remove vegetable
+
+  #class add herb
+    > chive/chives
+  #class remove herb
+
+  #class add spice
+    > cardamom pod/cardamom pods
+    > clove/cloves
+    > peppercorn/peppercorns
+  #class remove spice
+
+  #class add confectionery
+    > bonbon/bonbons
+    > chocolate bar/chocolate bars
+    > marshmallow/marshmallows
+  #class remove confectionery
+
+  #class add dish
+    > salad/salads
+    > steak/steaks
+    > schnitzel/schnitzels
+    > pie/pies
+    > pizza/pizzas
+    > purée/purées
+    > enchilada/enchiladas
+  #class remove dish
+
+  > biscuit/biscuits
+  > cookie/cookies
+  > cornflake/cornflakes
+  > pretzel/pretzels
+  > waffle/waffles
+
+#class remove food
