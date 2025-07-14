@@ -7,44 +7,19 @@
 > desk/desks
 
 #class add animal
-    > aardvark/aardvarks
-    > alligator/alligators
-    > ant/ants
-    > bird/birds
-    > beaver/beavers
-    > capybara/capybaras
-    > chameleon/chameleons
-    > crocodile/crocodiles
-    > dingo/dingoes
-    > donkey/donkeys
-    > echidna/echidnas
-    > elephant/elephants
-    > fish/fish
-    > fox/foxes
-    > gorilla/gorillas
-    > horse/horses
-    > iguana/iguanas
-    > jackal/jackals
-    > kangaroo/kangaroos
-    > leopard/leopards
-    > llama/llamas
-    > musk rat/musk rats
-    > newt/newts
-    > ocelot/ocelots
-    > orca/orcas
-    > panda/pandas
-    > porcupine/porcupines
-    > quokka/quokkas
-    > rhino/rhinos
-    > salamander/salamanders
-    > tiger/tigers
-    > urchin/urchins
-    > viper/vipers
-    > whale/whales
-    > whippet/whippets
-    > xingu river ray/xingu river rays
-    > yak/yaks
-    > zebra/zebras
+    #class add insect
+        > ant/ants
+        > bee/bees
+        > beetle/beetles
+        > butterfly/butterflies
+        > dragonfly/dragonflies
+        > grasshopper/grasshoppers
+        > ladybird/ladybirds
+        > moth/moths
+        > wasp/wasps
+        > weevil/weevils
+    #class remove insect
+
     #class add bird
         #class add waterfowl
             > barnacle goose/barnacle geese
@@ -164,6 +139,126 @@
         > wren/wrens
         > yellow wagtail/yellow wagtails
     #class remove bird
+
+    #class add mammal
+        #class add cat
+            > cheetah/cheetahs
+            > domestic cat/domestic cats
+            > jaguar/jaguars
+            > lion/lions
+            > lynx/lynxes
+            > ocelot/ocelots
+            > panther/panthers
+            > puma/pumas
+            > serval/servals
+            > tiger/tigers
+        #class remove cat
+
+        #class add dog
+            > beagle/beagles
+            > border collie/border collies
+            > bulldog/bulldogs
+            > dachshund/dachshunds
+            > dalmatian/dalmatians
+            > german shepherd/german shepherds
+            > golden retriever/golden retrievers
+            > greyhound/greyhounds
+            > labrador/labradors
+            > terrier/terriers
+        #class remove dog
+
+        #class add primate
+            > baboon/baboons
+            > chimpanzee/chimpanzees
+            > gibbon/gibbons
+            > gorilla/gorillas
+            > lemur/lemurs
+            > macaque/macaques
+            > mandrill/mandrills
+            > marmoset/marmosets
+            > orangutan/orangutans
+            > tamarin/tamarins
+        #class remove primate
+    #class remove mammal
+
+    #class add reptile
+        > adder/adders
+        > chameleon/chameleons
+        > cobra/cobras
+        > gecko/geckos
+        > iguana/iguanas
+        > python/pythons
+        > skink/skinks
+        > slow worm/slow worms
+        > tortoise/tortoises
+        > viper/vipers
+    #class remove reptile
+
+    #class add amphibian
+        > frog/frogs
+        > newt/newts
+        > salamander/salamanders
+        > toad/toads
+        > tree frog/tree frogs
+        > axolotl/axolotls
+        > caecilian/caecilians
+        > fire salamander/fire salamanders
+        > natterjack toad/natterjack toads
+        > olm/olms
+    #class remove amphibian
+
+    #class add fish
+        > carp/carps
+        > cod/cods
+        > eel/eels
+        > goldfish/goldfish
+        > haddock/haddocks
+        > mackerel/mackerels
+        > perch/perches
+        > pike/pikes
+        > salmon/salmons
+        > trout/trouts
+    #class remove fish
+
+    > aardvark/aardvarks
+    > alligator/alligators
+    > bird/birds
+    > beaver/beavers
+    > capybara/capybaras
+    > chameleon/chameleons
+    > crocodile/crocodiles
+    > dingo/dingoes
+    > donkey/donkeys
+    > echidna/echidnas
+    > elephant/elephants
+    > fish/fish
+    > fox/foxes
+    > gorilla/gorillas
+    > horse/horses
+    > iguana/iguanas
+    > jackal/jackals
+    > kangaroo/kangaroos
+    > leopard/leopards
+    > llama/llamas
+    > musk rat/musk rats
+    > newt/newts
+    > ocelot/ocelots
+    > orca/orcas
+    > panda/pandas
+    > porcupine/porcupines
+    > quokka/quokkas
+    > rhino/rhinos
+    > salamander/salamanders
+    > tiger/tigers
+    > urchin/urchins
+    > viper/vipers
+    > whale/whales
+    > whippet/whippets
+    > xingu river ray/xingu river rays
+    > yak/yaks
+    > zebra/zebras
+
+
 #class remove animal
 
 #class add building
@@ -381,6 +476,17 @@
         > skirt/skirts
     #class remove lowerbody
     
+    #class add underwear
+        > bra/bras
+        > camisole/camisoles
+        > long john/long johns
+        > petticoat/petticoats
+        > slip/slips
+        > thermal vest/thermal vests
+        > underpant/underpants
+        > undershirt/undershirts
+    #class remove underwear
+    
     #class add upperbody
         > blouse/blouses
         > coat/coats
@@ -392,7 +498,7 @@
         > vest/vests
     #class remove upperbody
 
-    #class add accessories
+    #class add accessory
         > belt/belts
         > bow tie/bow ties
         > cufflink/cufflinks
@@ -400,8 +506,58 @@
         > pocket square/pocket squares
         > tie/ties
         > watch/watches
-    #class remove accessories
+    #class remove accessory
 #class remove clothing
+
+#class add ball
+    > beach ball/beach balls
+    > cricket ball/cricket balls
+    > football/footballs
+    > golf ball/golf balls
+    > rugby ball/rugby balls
+    > snooker ball/snooker balls
+    > table tennis ball/table tennis balls
+    > tennis ball/tennis balls
+    > volleyball/volleyballs
+#class remove ball
+
+#class add liquid
+    > beer/beers
+    > blood/bloods
+    > ink/inks
+    > juice/juices
+    > milk/milks
+    > oil/oils
+    > paint/paints
+    > tea/teas
+    > vinegar/vinegars
+    > water/waters
+#class remove liquid
+
+#class add long
+    #class add tool
+        > broom/brooms
+        > crowbar/crowbars
+        > fishing rod/fishing rods
+        > hoe/hoes
+        > mop/mops
+        > rake/rakes
+        > saw/saws
+        > shovel/shovels
+        > spade/spades
+        > walking stick/walking sticks
+    #class remove tool
+
+    #class add weapon
+        > halberd/halberds
+        > lance/lances
+        > pike/pikes
+        > quarterstaff/quarterstaffs
+        > spear/spears
+        > staff/staffs
+        > trident/tridents
+    #class remove weapon
+#class remove long
 
 #class add body
     > ankle/ankles
@@ -500,7 +656,7 @@
     > apricot/apricots
     > banana/bananas
     > coconut/coconuts
-    > currant/currants
+    > currant/currents
     > date/dates
     > grape/grapes
     > grapefruit/grapefruits
@@ -595,5 +751,201 @@
   > cornflake/cornflakes
   > pretzel/pretzels
   > waffle/waffles
-
 #class remove food
+
+#class add instrument
+    > accordion/accordions
+    > acoustic guitar/acoustic guitars
+    > alphorn/alphorns
+    > baglama/baglamas
+    > balalaika/balalaikas
+    > banjo/banjos
+    > bass guitar/bass guitars
+    > bassoon/bassoons
+    > bongo/bongos
+    > bugle/bugles
+    > celesta/celestas
+    > cello/cellos
+    > clarinet/clarinets
+    > clavichord/clavichords
+    > cor anglais/cors anglais
+    > cornet/cornets
+    > cymbal/cymbals
+    > double bass/double basses
+    > drum kit/drum kits
+    > dulcimer/dulcimers
+    > electric guitar/electric guitars
+    > fiddle/fiddles
+    > flute/flutes
+    > french horn/french horns
+    > glockenspiel/glockenspiels
+    > gong/gongs
+    > grand piano/grand pianos
+    > handpan/handpans
+    > harmonica/harmonicas
+    > harp/harps
+    > harpsichord/harpsichords
+    > hurdy-gurdy/hurdy-gurdies
+    > kalimba/kalimbas
+    > kazoo/kazoos
+    > keyboard/keyboards
+    > lute/lutes
+    > lyre/lyres
+    > mandolin/mandolins
+    > marimba/marimbas
+    > melodica/melodicas
+    > oboe/oboes
+    > ocarina/ocarinas
+    > organ/organs
+    > oud/ouds
+    > pan flute/pan flutes
+    > piano/pianos
+    > piccolo/piccolos
+    > recorder/recorders
+    > saxophone/saxophones
+    > saz/sazes
+    > sitar/sitars
+    > snare drum/snare drums
+    > synthesizer/synthesizers
+    > tambourine/tambourines
+    > theremin/theremins
+    > trombone/trombones
+    > trumpet/trumpets
+    > tuba/tubas
+    > ukulele/ukuleles
+    > vibraphone/vibraphones
+    > viola/violas
+    > violin/violins
+    > xylophone/xylophones
+    > zither/zithers
+#class remove instrument
+
+#class add weapon
+    > arrow/arrows
+    > axe/axes
+    > bayonet/bayonets
+    > bomb/bombs
+    > bow/bows
+    > cannon/cannons
+    > club/clubs
+    > crossbow/crossbows
+    > dagger/daggers
+    > grenade/grenades
+    > gun/guns
+    > javelin/javelins
+    > knife/knives
+    > lance/lances
+    > musket/muskets
+    > pistol/pistols
+    > rifle/rifles
+    > shield/shields
+    > shotgun/shotguns
+    > spear/spears
+    > sword/swords
+#class remove weapon
+
+#class add plant
+    > beech tree/beech trees
+    > birch tree/birch trees
+    > bluebell/bluebells
+    > buttercup/buttercups
+    > daffodil/daffodils
+    > dandelion/dandelions
+    > foxglove/foxgloves
+    > holly bush/holly bushes
+    > oak tree/oak trees
+    > pine tree/pine trees
+    > primrose/primroses
+    > rose/roses
+    > snowdrop/snowdrops
+    > sunflower/sunflowers
+    > sycamore tree/sycamore trees
+    > thistle/thistles
+    > tulip/tulips
+    > willow tree/willow trees
+    > yew tree/yew trees
+    > nettle/nettles
+#class remove plant
+
+#class add shape
+    #class add 2d
+        > arrow/arrowheads
+        > circle/circles
+        > crescent/crescents
+        > diamond/diamonds
+        > ellipse/ellipses
+        > heart/hearts
+        > hexagon/hexagons
+        > octagon/octagons
+        > parallelogram/parallelograms
+        > pentagon/pentagons
+        > rectangle/rectangles
+        > square/squares
+        > star/stars
+        > trapezium/trapeziums
+        > triangle/triangles
+    #class remove 2d
+
+    #class add 3d
+        > capsule/capsules
+        > cone/cones
+        > cube/cubes
+        > cuboid/cuboids
+        > cylinder/cylinders
+        > dome/domes
+        > ellipsoid/ellipsoids
+        > hemisphere/hemispheres
+        > obelisk/obelisks
+        > octahedron/octahedrons
+        > prism/prisms
+        > pyramid/pyramids
+        > sphere/spheres
+        > tetrahedron/tetrahedrons
+        > torus/tori
+    #class remove 3d
+#class remove shape
+
+#class add furniture
+    > armchair/armchairs
+    > bed/beds
+    > bench/benches
+    > bookcase/bookcases
+    > chair/chairs
+    > chest of drawers/chests of drawers
+    > coffee table/coffee tables
+    > cupboard/cupboards
+    > desk/desks
+    > dining table/dining tables
+    > dresser/dressers
+    > footstool/footstools
+    > lamp/lamps
+    > mirror/mirrors
+    > rocking chair/rocking chairs
+    > sideboard/sideboards
+    > sofa/sofas
+    > stool/stools
+    > wardrobe/wardrobes
+    > writing desk/writing desks
+#class remove furniture
+
+#class add infrastructure
+    > bridge/bridges
+    > canal/canals
+    > dam/dams
+    > electric pylon/electric pylons
+    > footpath/footpaths
+    > motorway/motorways
+    > pier/piers
+    > railway/railways
+    > road/roads
+    > roundabout/roundabouts
+    > sewer/sewers
+    > street/streets
+    > subway/subways
+    > telephone box/telephone boxes
+    > tunnel/tunnels
+    > viaduct/viaducts
+    > water tower/water towers
+    > windmill/windmills
+    > zebra crossing/zebra crossings
+#class remove infrastructure
