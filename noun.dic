@@ -11,6 +11,7 @@
     > alligator/alligators
     > ant/ants
     > bird/birds
+    > beaver/beavers
     > capybara/capybaras
     > chameleon/chameleons
     > crocodile/crocodiles
@@ -27,7 +28,7 @@
     > kangaroo/kangaroos
     > leopard/leopards
     > llama/llamas
-    > mallard/mallards
+    > musk rat/musk rats
     > newt/newts
     > ocelot/ocelots
     > orca/orcas
@@ -38,12 +39,131 @@
     > salamander/salamanders
     > tiger/tigers
     > urchin/urchins
-    > vulture/vultures
+    > viper/vipers
+    > whale/whales
     > whippet/whippets
-    > white-tailed eagle/white-tailed eagles
     > xingu river ray/xingu river rays
-    > yellow wagtail/yellow wagtails
+    > yak/yaks
     > zebra/zebras
+    #class add bird
+        #class add waterfowl
+            > barnacle goose/barnacle geese
+            > canada goose/canada geese
+            > eider/eiders
+            > common eider/common eiders
+            > shelduck/shelducks
+            > common shelduck/common shelducks
+            > egyptian goose/egyptian geese
+            > gadwall/gadwalls
+            > greater scaup/greater scaups
+            > green-winged teal/green-winged teals
+            > greylag goose/greylag geese
+            > mallard/mallards
+            > mute swan/mute swans
+            > northern shoveler/northern shovelers
+            > red-breasted merganser
+            > smew/smew
+            > tufted duck/tufted ducks
+        #class remove waterfowl
+        #class add gull
+            > arctic tern/arctic terns
+            > black-headed gull/black-headed gulls
+            > common gull/common gulls
+            > herring gull/herring gulls
+            > great black-backed gull/great black-backed gulls
+        #class remove gull
+        #class add shorebird
+            > pied avocet/pied avocets
+            > oystercatcher/oystercatchers
+            > ringed plover/ringed plover
+            > little ringed plover/little ringed plover
+            > northern lapwing/northern lapwings
+            > redshank/redshanks
+            > dunlin/dunlins
+        #class remove shorebird
+        #class add pigeon
+            > collared dove/collard doves
+            > pigeon/pigeons
+            > rock pigeon/rock pigeons
+            > wood pigeon/wood pigeons
+        #class remove pigeon
+        #class add birdofprey
+            > buzzard/buzzards
+            > eurasian sparrowhawk/eurasian sparrowhawks
+            > white-tailed eagle/white-tailed eagles
+            > vulture/vultures
+        #class remove birdofprey
+        #class add falcon
+            > falcon/falcons
+            > kestrel/kestrels
+            > hobby/hobbies
+            > merlin/merlins
+            > peregrine falcon/peregrine falcons
+        #class remove falcon
+        #class add corvid
+            > carrion crow/carrion crows
+            > crow/crows
+            > hooded crow/hooded crows
+            > jackdaw/jackdaws
+            > jay/jays
+            > magpie/magpies
+            > raven/ravens
+            > rook/rooks
+        #class remove corvid
+        #class add finch
+            > bullfinch/bullfinches
+            > chaffinch/chaffinches
+            > greenfinch/greenfinches
+            > goldfinch/goldfinches
+            > siskin/siskins
+        #class remove finch
+        > atlantic puffin/atlantic puffins
+        > swallow/swallows
+        > bank swallow/bank swallows
+        > barn swallow/barn swallows
+        > black woodpecker/black woodpeckers
+        > blackbird/blackbirds
+        > blackcap/blackcaps
+        > blue tit/blue tits
+        > chiffchaff/chiffchaffs
+        > coal tit/coal tits
+        > cormorant/cormorants
+        > crane/cranes
+        > eurasian coot/eurasian coots
+        > firecrest/firecrests
+        > great cormorant/great cormorants
+        > great crested grebe/great crested grebes
+        > great egret/great egrets
+        > great reed warbler/great reed warblers
+        > great skua/great skua
+        > great spotted woodpecker/great spotted woodpeckers
+        > great tit/great tits
+        > grey heron/grey herons
+        > house sparrow/house sparrows
+        > kingfisher/kingfishers
+        > lesser whitethroat/lesser whitethroats
+        > long-tailed tit/long-tailed tits
+        > mistle thrush/mistle thrushes
+        > moorhen/moorhens
+        > nuthatch/nuthatches
+        > red-necked grebe/red-necked grebes
+        > redwing/redwings
+        > ring-necked pheasant/ring-necked pheasants
+        > robin/robins
+        > short-toed treecreeper/short-toed treecreepers
+        > skylark/skylarks
+        > song thrush/song thrushes
+        > starling/starlings
+        > swift/swifts
+        > tree sparrow/tree sparrows
+        > treecreeper/treecreepers
+        > puffin/puffins
+        > western house-martin/western house-martins
+        > white wagtail/white wagtails
+        > wood warbler/wood warblers
+        > wren/wrens
+        > yellow wagtail/yellow wagtails
+    #class remove bird
 #class remove animal
 
 #class add building
@@ -103,6 +223,7 @@
         > ambassador/ambassadors
         > artist/artists
         > astronaut/astronauts
+        > astrophysicist/astrophysicis
         > assistant manager/assistant managers
         > astronomer/astronomers
         > attorney general/attorneys general
@@ -141,6 +262,7 @@
         > interpreter/interpreters
         > janitor/janitors
         > jockey/jockeys
+        > joiner/joiners
         > journalist/journalists
         > judge/judges
         > kernel programmer/kernal programmers
@@ -154,7 +276,63 @@
         > locksmith/locksmiths
         > magician/magicians
         > mathematician/mathematicians
+        > mechanic/mechanics
         > midwife/midwives
+        > miner/miners
         > musician/musicians
+        > navigator/navigators
+        > notary/notaries
+        > nurse/nurses
+        > optician/opticians
+        > optometrist/optometrists
+        > ornithologist/ornithologists
+        > painter/painters
+        > particle physicist/particle physicists
+        > philosopher/philosophers
+        > photographer/photographers
+        > physicist/physicists
+        > pilot/pilots
+        > plumber/plumbers
+        > police officer/police officers
+        > professor/professors
+        > programmer/programmers
+        > psychiatrist/psychiatrists
+        > psychologist/psychologists
+        > quantum physicist/quantum physicist
+        > quartermaster/quartermasters
+        > radiologist/radiologists
+        > receptionist/receptionists
+        > reporter/reporters
+        > researcher/researchers
+        > sailor/sailors
+        > salesperson/salespeople
+        > scientist/scientists
+        > security guard/security guards
+        > spy/spies
+        > statistician/statisticians
+        > stockbroker/stockbrokers
+        > surgeon/surgeons
+        > surveyor/surveyors
+        > taior/tailors
+        > taxi driver/taxi drivers
+        > taxidermist/taxidermists
+        > teacher/teachers
+        > teaching assistant/teaching assistants
+        > translator/translators
+        > travel agent/travel agents
+        > tutor/tutors
+        > undertaker/undertakers
+        > union representative/union representatives
+        > usher/ushers
+        > vet/vets
+        > vicar/vicars
+        > waiter/waiters
+        > watchmaker/watchmakers
+        > writer/writers
+        > xylophonist/xylophonist
+        > x-ray technician/x-ray technicians
+        > yoga instructor/yoga instructors
+        > zookeeper/zookeepers
+        > zoologist/zoologists
     #class remove job
 #class remove person
