@@ -167,17 +167,14 @@
 #class remove animal
 
 #class add building
-    > apartment/apartments
-    > bungalow/bungalows
-    > house/houses
-    > factory/factories
-    > flat/flats
-    > hotel/hotels
-    > garage/garages
-    > shed/sheds
-    > greenhouse/greenhouses
-    > mansion/mansions
-    > warehouse/warehouses
+    #class add residential
+        > apartment/apartments
+        > bungalow/bungalows
+        > flat/flats
+        > hotel/hotels
+        > house/houses
+        > mansion/mansions
+    #class remove residential
     #class add retail
         > kiosk/kiosks
         > shop/shops
@@ -186,23 +183,52 @@
         > market/markets
         > mall/malls
     #class remove retail
+    #class add education
+        > college/colleges
+        > nursery school/nursery schools
+        > school/schools
+        > university/universities
+    #class remove education
+    #class add healthcare
+        > apothecary/apothecaries
+        > clinic/clinics
+        > hospital/hospitals
+        > pharmacy/pharmacies
+    #class remove healthcare
+    > aircraft hangar/aircraft hangars
+    > bunker/bunkers
+    > factory/factories
+    > garage/garages
+    > shed/sheds
+    > skyscraper/skyscrapers
+    > greenhouse/greenhouses
+    > warehouse/warehouses
 #class remove building
 
 #class add vehicle
-    > aeroplane/aeroplanes
+    > airliner/airliners
     > ambulance/ambulances
     > bicycle/bicycles/
     > bike/bikes
     > bus/buses
+    > camper van/camper vans
     > car/cars
+    > cargo bike/cargo bikes
+    > container ship/container ships
     > cruise liner/cruise liners
     > dinghy/dinghies
     > fighter jet/fighter jets
+    > freight plane/freight planes
     > helicopter/helicopters
+    > HGV/HGVs
+    > horse-drawn cart/horse-drawn carts
     > hovercraft/hovercrafts
+    > light truck/light trucks
     > motorbike/motorbikes
+    > penny farthing/penny farthings
     > tricycle/tricycles
     > truck/trucks
+    > unicycle/unicycles
     > van/vans
     #class add retail
         > food truck/food trucks
@@ -217,122 +243,244 @@
     > person/people
     > man/men
     > woman/women
-    #class add job
-        > accountant/accountants
-        > airline pilot/airline pilots
-        > ambassador/ambassadors
-        > artist/artists
-        > astronaut/astronauts
-        > astrophysicist/astrophysicis
-        > assistant manager/assistant managers
-        > astronomer/astronomers
-        > attorney general/attorneys general
-        > author/authors
-        > babysitter/babysitters
-        > banker/bankers
-        > biologist/biologists
-        > blacksmith/blacksmiths
-        > builder/builders
-        > butcher/butchers
-        > cardiologist/cardiologists
-        > carpenter/carpenters
-        > cartographer/cartographers
-        > cashier/cashiers
-        > cellist/cellists
-        > chemist/chemists
-        > cobbler/cobblers
-        > consultant/consultants
-        > dentist/dentists
-        > detective/detectives
-        > doctor/doctors
-        > dog walker/dog walkers
-        > driving instructor/driving instructors
-        > economist/economists
-        > electrician/electricians
-        > engineer/engineers
-        > falconer/falconers
-        > firefighter/firefighters
-        > flautist/flautists
-        > gardener/gardeners
-        > geographer/geographers
-        > greengrocer/greengrocers
-        > hairdresser/hairdressers
-        > horticulturalist/horticulturalists
-        > illustrator/illustrators
-        > interpreter/interpreters
-        > janitor/janitors
-        > jockey/jockeys
-        > joiner/joiners
-        > journalist/journalists
-        > judge/judges
-        > kernel programmer/kernal programmers
-        > kitchen manager/kitchen managers
-        > landscaper/landscapers
-        > lawyer/lawyers
-        > lecturer/lecturers
-        > librarian/librarians
-        > lifeguard/lifeguards
-        > linguist/linguists
-        > locksmith/locksmiths
-        > magician/magicians
-        > mathematician/mathematicians
-        > mechanic/mechanics
-        > midwife/midwives
-        > miner/miners
-        > musician/musicians
-        > navigator/navigators
-        > notary/notaries
-        > nurse/nurses
-        > optician/opticians
-        > optometrist/optometrists
-        > ornithologist/ornithologists
-        > painter/painters
-        > particle physicist/particle physicists
-        > philosopher/philosophers
-        > photographer/photographers
-        > physicist/physicists
-        > pilot/pilots
-        > plumber/plumbers
-        > police officer/police officers
-        > professor/professors
-        > programmer/programmers
-        > psychiatrist/psychiatrists
-        > psychologist/psychologists
-        > quantum physicist/quantum physicist
-        > quartermaster/quartermasters
-        > radiologist/radiologists
-        > receptionist/receptionists
-        > reporter/reporters
-        > researcher/researchers
-        > sailor/sailors
-        > salesperson/salespeople
-        > scientist/scientists
-        > security guard/security guards
-        > spy/spies
-        > statistician/statisticians
-        > stockbroker/stockbrokers
-        > surgeon/surgeons
-        > surveyor/surveyors
-        > taior/tailors
-        > taxi driver/taxi drivers
-        > taxidermist/taxidermists
-        > teacher/teachers
-        > teaching assistant/teaching assistants
-        > translator/translators
-        > travel agent/travel agents
-        > tutor/tutors
-        > undertaker/undertakers
-        > union representative/union representatives
-        > usher/ushers
-        > vet/vets
-        > vicar/vicars
-        > waiter/waiters
-        > watchmaker/watchmakers
-        > writer/writers
-        > xylophonist/xylophonist
-        > x-ray technician/x-ray technicians
-        > yoga instructor/yoga instructors
-        > zookeeper/zookeepers
-        > zoologist/zoologists
-    #class remove job
 #class remove person
+    
+#class add job
+    > accountant/accountants
+    > airline pilot/airline pilots
+    > ambassador/ambassadors
+    > artist/artists
+    > astronaut/astronauts
+    > astrophysicist/astrophysicis
+    > assistant manager/assistant managers
+    > astronomer/astronomers
+    > attorney general/attorneys general
+    > author/authors
+    > babysitter/babysitters
+    > banker/bankers
+    > biologist/biologists
+    > blacksmith/blacksmiths
+    > builder/builders
+    > butcher/butchers
+    > cardiologist/cardiologists
+    > carpenter/carpenters
+    > cartographer/cartographers
+    > cashier/cashiers
+    > cellist/cellists
+    > chemist/chemists
+    > cobbler/cobblers
+    > consultant/consultants
+    > dentist/dentists
+    > detective/detectives
+    > doctor/doctors
+    > dog walker/dog walkers
+    > driving instructor/driving instructors
+    > economist/economists
+    > electrician/electricians
+    > engineer/engineers
+    > falconer/falconers
+    > firefighter/firefighters
+    > flautist/flautists
+    > gardener/gardeners
+    > geographer/geographers
+    > greengrocer/greengrocers
+    > hairdresser/hairdressers
+    > horticulturalist/horticulturalists
+    > illustrator/illustrators
+    > interpreter/interpreters
+    > janitor/janitors
+    > jockey/jockeys
+    > joiner/joiners
+    > journalist/journalists
+    > judge/judges
+    > kernel programmer/kernal programmers
+    > kitchen manager/kitchen managers
+    > landscaper/landscapers
+    > lawyer/lawyers
+    > lecturer/lecturers
+    > librarian/librarians
+    > lifeguard/lifeguards
+    > linguist/linguists
+    > locksmith/locksmiths
+    > magician/magicians
+    > mathematician/mathematicians
+    > mechanic/mechanics
+    > midwife/midwives
+    > miner/miners
+    > musician/musicians
+    > navigator/navigators
+    > notary/notaries
+    > nurse/nurses
+    > optician/opticians
+    > optometrist/optometrists
+    > ornithologist/ornithologists
+    > painter/painters
+    > particle physicist/particle physicists
+    > philosopher/philosophers
+    > photographer/photographers
+    > physicist/physicists
+    > pilot/pilots
+    > plumber/plumbers
+    > police officer/police officers
+    > professor/professors
+    > programmer/programmers
+    > psychiatrist/psychiatrists
+    > psychologist/psychologists
+    > quantum physicist/quantum physicist
+    > quartermaster/quartermasters
+    > radiologist/radiologists
+    > receptionist/receptionists
+    > reporter/reporters
+    > researcher/researchers
+    > sailor/sailors
+    > salesperson/salespeople
+    > scientist/scientists
+    > security guard/security guards
+    > spy/spies
+    > statistician/statisticians
+    > stockbroker/stockbrokers
+    > surgeon/surgeons
+    > surveyor/surveyors
+    > taior/tailors
+    > taxi driver/taxi drivers
+    > taxidermist/taxidermists
+    > teacher/teachers
+    > teaching assistant/teaching assistants
+    > translator/translators
+    > travel agent/travel agents
+    > tutor/tutors
+    > undertaker/undertakers
+    > union representative/union representatives
+    > usher/ushers
+    > vet/vets
+    > vicar/vicars
+    > waiter/waiters
+    > watchmaker/watchmakers
+    > writer/writers
+    > xylophonist/xylophonist
+    > x-ray technician/x-ray technicians
+    > yoga instructor/yoga instructors
+    > zookeeper/zookeepers
+    > zoologist/zoologists
+#class remove job
+
+#class add clothing
+    #class add footwear
+        > boot/boots
+        > sandal/sandals
+        > shoe/shoes
+        > slipper/slippers
+        > stiletto/stilettoes
+        > sock/socks
+    #class remove footwwear
+
+    #class add lowerbody
+        > kilt/kilts
+        > pair of trousers/pairs of trousers
+        > pair of shorts/pairs of shorts
+        > skirt/skirts
+    #class remove lowerbody
+    
+    #class add upperbody
+        > blouse/blouses
+        > coat/coats
+        > crop top/crop tops
+        > jacket/jackets
+        > shirt/shirts
+        > t-shirt/t-shirts
+        > tuxedo/tuxedoes
+        > vest/vests
+    #class remove upperbody
+
+    #class add accessories
+        > belt/belts
+        > bow tie/bow ties
+        > cufflink/cufflinks
+        > hat/hats
+        > pocket square/pocket squares
+        > tie/ties
+        > watch/watches
+    #class remove accessories
+#class remove clothing
+
+#class add body
+    > ankle/ankles
+    > arm/arms
+    > bone/bones
+    > calf/calves
+    > cheek/cheeks
+    > chin/chins
+    > ear/ears
+    > elbow/elbows
+    > eye/eyes
+    > eyebrow/eyebrows
+    > finger/fingers
+    > fingernail/fingernails
+    > forehead/foreheads
+    > foot/feet
+    > hamstring/hamstring
+    > hand/hands
+    > heel/heels
+    > hip/hips
+    > knee/knees
+    > kneecap/kneecaps
+    > knuckle/knuckles
+    > leg/legs
+    > mouth/mouths
+    > muscle/muscles
+    > neck/necks
+    > nose/noses
+    > shin/shins
+    > skin/skins
+    > thigh/thighs
+    > throat/throats
+    > thumb/thumbs
+    > toe/toes
+    > toenail/toenails
+    > tongue/tongues
+    > tooth/teeth
+    > waist/waists
+    
+    #class add organs
+        > appendix/appendices
+        > brain/brains
+        > heart/hearts
+        > kidney/kidneys
+        > lung/lungs
+        > liver/livers
+        > spleen/spleens
+        > stomach/stomaches
+    #class remove organs
+#class remove body
+
+#class add container
+    > bag/bags
+    > barrel/barrels
+    > basket/baskets
+    > bottle/bottles
+    > bowl/bowls
+    > box/box
+    > carton/cartons
+    > case/case
+    > chest/chests
+    > container/containers
+    > cup/cups
+    > envelope/envelopes
+    > flask/flasks
+    > freezer/freezer
+    > glass/glasses
+    > jar/jars
+    > jug/jugs
+    > packet/packets
+    > pitcher/pitchers
+    > pocket/pockets
+    > pot/pots
+    > pouch/pouches
+    > sack/sacks
+    > suitcase/suitcase
+    > trunk/trunks
+    > tub/tubs
+    > vat/vats
+    > vial/vials
+    > wallet/wallets
+#class remove container
