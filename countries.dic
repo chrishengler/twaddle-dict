@@ -1,6 +1,6 @@
 #version 2
 #name country
-#subs default
+#forms default
 
 #class add africa
   #class add mediterranean
