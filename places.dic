@@ -74,8 +74,6 @@
     > crevasse/crevasses
   #class remove natural
 
-  > abyss/abysses
-  > alley/alleys
   > ambulance/ambulances
   > apartment/apartments
   > arcade/arcades
@@ -109,7 +107,6 @@
   > skyway/skyways
   > stand/stands
   > station/stations
-  > town/towns
   > trailer/trailers
   > van/vans
   > wonderland/wonderlands
@@ -117,6 +114,7 @@
 
 #class add outdoor
   #class add natural
+    > abyss/abysses
     > bay/bays
     > beach/beaches
     > canyon/canyons
@@ -144,6 +142,7 @@
     > wasteland/wastelands
   #class remove natural
 
+  > alley/alleys
   > amusement park/amusement parks
   > battlefield/battlefields
   > carnival/carnivals
@@ -158,4 +157,5 @@
   > road/roads
   > rooftop/rooftops
   > street/streets
+  > town/towns
 #class remove outdoor
