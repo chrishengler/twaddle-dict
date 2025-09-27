@@ -14,4 +14,5 @@ Most of these dictionaries draw heavily from
 They are provided under the MIT license, under which they may be used
 by anybody for any purpose.
 
-Pull requests are welcome. 
+Pull requests are welcome, whether extending vocabulary or adding new
+dictionaries, or improving categorisation of existing vocabulary. 
